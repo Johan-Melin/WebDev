@@ -1,0 +1,10 @@
+<%- include('partials/head') %>
+<body>
+    <%= num %> <!--ejs js-->
+    <% if(Math.floor(num*100) % 2 === 0) { %>
+        <h1>Even</h1>
+    <% } else { %>
+        <h1>Odd</h1>
+    <% } %>
+</body>
+</html>
